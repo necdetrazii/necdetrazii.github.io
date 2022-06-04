@@ -1,0 +1,123 @@
+/* Page Info
+Project Name : Nisan 2022 Bootstrap Proje
+Author: R Dogan
+*/
+
+/* Page Genaral Settings*/
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Anek Odia", sans-serif;
+}
+/*Navigasyon Settings*/
+nav {
+  background-color: rgb(27, 101, 114) !important;
+}
+#project-name,
+.nav-link {
+  /*virgul kullanarak coklu eleman secme */
+  color: wheat !important;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+#project-name {
+  font-size: 24px;
+}
+.nav-link:hover {
+  color: white !important; /*bootstrap classlarını ezme  */
+  text-decoration: underline; /*alt cizgi */
+  transition: 0.5s; /*Animasyonlu gecis efekti */
+}
+/*Hero Settings*/
+#hero-header {
+  text-align: center;
+  height: 100vh; /* Yuksekligi sayfanın 100% u kadar yapar*/
+  background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)),
+    url("https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=847&q=80");
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    
+    
+}
+#intro-title{
+    padding-top: 200px;
+    
+}
+#intro-title p {
+    margin-top: 20px;
+}
+#intro-title button {
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    color: wheat;
+    background-color: rgb(27, 101, 114);
+    font-weight: 500;
+    transition: 1s;
+}
+#intro-title button:hover{
+    color: rgb(27, 101, 114);
+    background-color: wheat;
+    transition: 1s;
+}
+/*Ders1 Finish*/
+
+
+/*Lesson2 Start*/
+.hr{
+  width: 5%;
+  padding: 0;
+  border: none; 
+  border-top: medium double rgb(27, 101, 114);; 
+  color: rgb(27, 101, 114);
+  text-align: center;   
+ 
+}
+hr:after { 
+  content: "§"; 
+  display: inline-block; 
+  position: relative; 
+  top: -0.7em; 
+  font-size: 1.5em; 
+  padding: 0 0.25em; 
+  background: #fff; 
+}
+
+#slogan{
+  text-align: center;
+  height: 30vh; /* Yuksekligi sayfanın 30% u kadar yapar*/
+  background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)),
+    url("https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=847&q=80");
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Lesson2 END*/

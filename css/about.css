@@ -1,0 +1,55 @@
+/*Navigasyon Settings*/
+nav {
+    background-color: rgb(27, 101, 114) !important;
+  }
+  #project-name,
+  .nav-link {
+    /*virgul kullanarak coklu eleman secme */
+    color: wheat !important;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  #project-name {
+    font-size: 24px;
+  }
+  .nav-link:hover {
+    color: white !important; /*bootstrap classlarını ezme  */
+    text-decoration: underline; /*alt cizgi */
+    transition: 0.5s; /*Animasyonlu gecis efekti */
+  }
+  #slogan{
+      position: relative;
+      top: 100px;
+    text-align: center;
+    height: 30vh; /* Yuksekligi sayfanın 30% u kadar yapar*/
+    background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)),
+      url("https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=847&q=80");
+      color: white;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+      margin-bottom: 100px;
+  }
+  /*Lesson2 Start*/
+.hr{
+    width: 5%;
+    padding: 0;
+    border: none; 
+    border-top: medium double rgb(27, 101, 114);; 
+    color: rgb(27, 101, 114);
+    text-align: center;   
+   
+  }
+  .team-member{
+    height: 250px;
+    width: 250px;
+  }
+  .tc{
+    background-color: rgb(58, 57, 57);
+    color: rgb(255, 255, 255);
+  }
+  .tc:hover{
+    background-color: aqua;
+transition: 0.5s;
+  }

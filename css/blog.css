@@ -1,0 +1,36 @@
+/*Navigasyon Settings*/
+nav {
+    background-color: rgb(27, 101, 114) !important;
+  }
+  #project-name,
+  .nav-link {
+    /*virgul kullanarak coklu eleman secme */
+    color: wheat !important;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  #project-name {
+    font-size: 24px;
+  }
+  .nav-link:hover {
+    color: white !important; /*bootstrap classlarını ezme  */
+    text-decoration: underline; /*alt cizgi */
+    transition: 0.5s; /*Animasyonlu gecis efekti */
+  }
+  #slogan{
+    position: relative;
+    top: 50px;
+  text-align: center;
+  height: 30vh; /* Yuksekligi sayfanın 30% u kadar yapar*/
+  background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)),
+    url("https://cdn.pixabay.com/photo/2015/01/08/18/25/desk-593327__340.jpg");
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin-bottom: 100px;
+}
+  .a-hoverr:hover{
+    color: chartreuse !important; 
+  }
